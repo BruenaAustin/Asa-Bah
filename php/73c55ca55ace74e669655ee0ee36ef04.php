@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+     
+    <title>Artículo</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css" />
+
+    <link rel="stylesheet" href="assets/css/maicons.css" />
+
+    <link rel="stylesheet" href="assets/vendor/animate/animate.css" />
+
+    <link rel="stylesheet" href="assets/vendor/owl-carousel/css/owl.carousel.css" />
+
+    <link rel="stylesheet" href="assets/vendor/fancybox/css/jquery.fancybox.css" />
+
+    <link rel="stylesheet" href="assets/sass/theme.css" />
+  </head>
+  <body>
+    <!-- Back to top button -->
+    <div class="back-to-top"></div>
+
+    <header>
+      <div class="top-bar mt-2">
+        <div class="container">
+          <div class="text-center">
+            <div class="col">
+              <div class="d-inline-block">
+                <span class="mai-mail fg-primary"></span>
+                <span>javier75@regalado.com</span>
+              </div>
+              <div class="d-inline-block ml-2">
+                <span class="mai-call fg-primary"></span> <span>+7212119385672</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- .container -->
+      </div>
+      <!-- .top-bar -->
+
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <a href="index.php" class="navbar-brand"
+            ><span class="text-primary" style="font-size: 1rem">Pomeschenei</span></a
+          >
+
+          <button
+            class="navbar-toggler"
+            data-toggle="collapse"
+            data-target="#navbarContent"
+            aria-controls="navbarContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="navbar-collapse collapse" id="navbarContent">
+            <ul class="navbar-nav ml-auto pt-3 pt-lg-0" style="font-size: 0.6rem">
+              <li class="nav-item">
+                <a href="index.php" class="nav-link">Inicio</a>
+              </li>
+              <li class="nav-item active">
+                <a href="blog.php" class="nav-link">Artículo</a>
+              </li>
+              <li class="nav-item">
+                <a href="contact.php" class="nav-link">Contactos</a>
+              </li>
+              <li class="nav-item">
+                <a href="policy.php" class="nav-link">Política de privacidad</a>
+              </li>
+              <li class="nav-item">
+                <a href="terms.php" class="nav-link">Términos y condiciones</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- .container -->
+      </nav>
+      <!-- .navbar -->
+    </header>
+
+    <main>
+      <div class="page-section pt-3">
+        <h1 class="text-center mb-4" style="font-size: 48px">Artículo</h1>
+        <div class="container">
+          <div
+            class="row align-items-center mb-4 flex-column-reverse"
+            
+          >
+            <div class="d-flex flex-column align-items-center p-4">
+              <h2 class="title-section" style="max-width: none;">Ideas para una casa de campo de 6x6. El tamaño óptimo</h2>
+              <p><strong></strong> de Uno de los tamaños más populares para una casa de campo es considerado por muchos como el tamaño óptimo para una familia pequeña. Es absolutamente necesario para un espacio pequeño, donde todo el mundo va a tener un montón de espacio para resolver. Por lo tanto, el tamaño óptimo para una casa pequeña que se piensa a menudo en el diseño de toda la casa. En este video, vamos a considerar las principales – el tamaño óptimo para una estrecha parcela, el tamaño óptimo para un largo estrecho, el tamaño óptimo para una estrecha parcela y el tamaño óptimo para una estrecha parcela con una terraza. ¿ como nuestras ofertas? Encontrar más ofertas en el portal inmobiliario suburbano TERRES.RU</p>
+            </div>
+            <div class="py-3">
+              <div class="about-img" style="max-height: 400px; object-fit: cover; max-width: none; transform: none;"">
+                <img src="./assets/images/edgar-chaparro-5zznjje88bo-unsplash.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- .page-section -->
+    </main>
+
+    <footer class="page-footer pt-3">
+      <div class="container">
+        <div class="col mt-4">
+          <div class="col text-center">
+            <p>
+              ©
+              <script>
+                document.write(new Date().getFullYear());
+              </script>
+              Copyright
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="cookie-banner">
+      <p style="color: #000000">
+        El sitio web utiliza "cookies". Permiten identificarlo y recibir su información de la experiencia del usuario.Continuando con la navegación de la web, estoy de acuerdo con el uso de las cookies, el propietario del sitio de conformidad con 
+        <a target="_blank" href="https://en.wikipedia.org/wiki/HTTP_cookie"
+          >Política de cookies</a
+        >
+      </p>
+
+      <button class="close-cookie">×</button>
+    </div>
+
+    <script>
+      window.onload = function () {
+        $('.close-cookie').click(function () {
+          $('.cookie-banner').fadeOut();
+        });
+      };
+    </script>
+
+    <script>
+      let elems = document.querySelectorAll('.server-name');
+      elems.forEach((elem) => {
+        elem.innerHTML = window.location.hostname;
+      });
+    </script>
+
+    <script src="assets/js/jquery-3.5.1.min.js"></script>
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <script src="assets/vendor/owl-carousel/js/owl.carousel.min.js"></script>
+
+    <script src="assets/vendor/wow/wow.min.js"></script>
+
+    <script src="assets/vendor/fancybox/js/jquery.fancybox.min.js"></script>
+
+    <script src="assets/vendor/isotope/isotope.pkgd.min.js"></script>
+
+    <script src="assets/js/theme.js"></script>
+  </body>
+</html>
